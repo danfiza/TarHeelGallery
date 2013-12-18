@@ -1,0 +1,130 @@
+ul{list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.UserContainer{
+	float:left;
+	font-size: 20px;
+	color: #4a95cb;
+
+}
+#galleryScroll h1{
+
+	margin: 25px;
+}
+div.UserContainer li:hover {
+	background-color: #d6d6d6;
+}
+div.UserContainer a:link {text-decoration:none;}
+div.UserContainer a:visited {text-decoration:none;}
+div.UserContainer a:hover {text-decoration:none;}
+div.UserContainer a:active {text-decoration:none;}
+
+div.UserContainer li{
+	width: 100px;
+	border-top: solid white 1px;
+	padding-left: 5px;
+	background-color: #eeeeee;
+}
+
+div.Gallery_Container{
+	float:right;
+	width:85%;
+}
+
+#galleryScroll{
+	overflow: auto;
+	background-color: white;
+	float:right;
+	width:100%;
+	
+}
+
+#galleryScroll img{
+	height: 150px;
+	width: 150px;
+}
+
+#galleryScroll div{
+	width: 150px;
+	display: inline-block;
+	padding: 30px 30px;
+	background-color: #eeeeee;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin: 30px;
+	margin-right: auto;
+	
+}
+
+#galleryScroll div:hover {
+	background-color: #d6d6d6;
+}
+
+#galleryScroll img.thumbdn{
+	height: 30px;
+	width: 30px;
+	float: right;
+	cursor: pointer;
+	margin: 10px;
+}
+#galleryScroll img.thumbup{
+	height: 30px;
+	width: 30px;
+	float: left;
+	cursor: pointer;
+	margin: 10px;
+	margin-top: 5px;
+}
+
+.error_message {
+	display:none;
+	color:red;
+}
+
+.comments {
+	list-style:none;
+}
+
+.comments li {
+	font-family: Georgia;
+	color: #FFFFFF;
+	font-size: 1em;
+	padding: 5px;
+}
+
+
+div.thumbsup{
+	padding-top: 0px;
+	padding-left: 0px;
+	float:none;
+}
+
+div.thumbsdown{
+	padding-top: 0px;
+	padding-left: 0px;
+}
+
+#register {
+	padding-right:100px;
+	margin-left:0px;
+}
+
+div.head{
+	margin-left:100px;
+}
+
+span.votes{
+	color: #FF6600;
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+span.dn{
+	color: red;
+	float: right;
+	margin-top: 40px;
+	margin-right: -45px;
+	font-size: 15px;
+}
